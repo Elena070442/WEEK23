@@ -1,0 +1,49 @@
+.tariffs-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.tariffs-title {
+    text-align: center;
+}
+.tariffs-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.tariff {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  .tariff.selected {
+    border: 3px solid #ff6600; /* оранжевая рамка */
+    background-color: #fff8e1; /* светлый фон */
+  }
+  
+  /* Заголовок тарифа */
+  .tariff-title {
+    margin-top: 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+.tariff-price {
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0;
+}
+.tariff-speed{
+    font-size: 1em;
+    text-align: center;
+    margin: 10px 0;
+}
+.tariff-trafic{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 10px 0;
+    background-color: grey;
+}
